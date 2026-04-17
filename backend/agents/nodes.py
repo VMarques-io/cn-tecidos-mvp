@@ -20,88 +20,26 @@ HANDOFF_LINK = os.environ.get(
     "&type=phone_number&app_absent=0"
 )
 
-# Friendly fallback message when AI fails
 AI_FAILURE_MESSAGE = (
-    "Me perdoa, mas vou ter que transferir seu atendimento, tá bom? 🙏\n\n"
+    "Me perdoa, mas vou ter que transferir seu atendimento, tá bom?\n\n"
     f"É só clicar aqui pra falar com a gente: {HANDOFF_LINK}"
 )
 
-
-def _safe_import_knowledge():
-    try:
-        import services.knowledge as knowledge
-        return knowledge
-    except Exception:
-        return None
-
-
-def _get_fabric_context() -> str:
-    knowledge = _safe_import_knowledge()
-    if knowledge and hasattr(knowledge, "get_fabric_context"):
-        try:
-            return knowledge.get_fabric_context()
-        except Exception:
-            pass
-    return (
-        "C&N Tecidos é uma loja de tecidos e aviamentos em Campina Grande, PB. "
-        "Oferece tecidos variados: algodão, linho, seda, viscose, jeans, malha, "
-        "tecido para festa, tecido para decoração, aviamentos como botões, "
-        "zíperes, linhas, elásticos. Atende tanto pessoa física quanto profissional "
-        "de moda e costura. Preços acessíveis e atendimento personalizado."
-    )
+STORE_CONTEXT = (
+    "C&N Tecidos é uma loja de tecidos e aviamentos em Campina Grande, PB. "
+    "Oferece tecidos variados: algodão, linho, seda, viscose, jeans, malha, "
+    "tecido para festa, tecido para decoração, aviamentos como botões, "
+    "zíperes, linhas, elásticos. Atende tanto pessoa física quanto profissional "
+    "de moda e costura. Preços acessíveis e atendimento personalizado."
+)
 
 
-def classify_with_gemini(text: str) -> str:
-    """Classify user intent using Google Gemini API."""
+def _call_gemini(prompt: str) -> str:
+    """Call Gemini API. Returns empty string on any failure."""
     try:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
-            raise RuntimeError("Gemini API key not configured")
-        if genai is None:
-            raise RuntimeError("google-generativeai not installed")
-
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(GEMINI_MODEL)
-        response = model.generate_content(text)
-
-        if not response or not response.text:
-            raise ValueError("Empty Gemini response")
-
-        content = response.text.strip().upper()
-        if "HUMANO" in content or "HUMAN" in content:
-            return "HUMANO"
-        if "CANCEL" in content or "CANCELAR" in content:
-            return "CANCEL"
-        return "FAQ"
-    except Exception as e:
-        logger.warning(f"[GEMINI] Classification fallback: {e}")
-        return _keyword_classify(text)
-
-
-def _keyword_classify(text: str) -> str:
-    """Fallback classification using keywords."""
-    t = text.lower().strip()
-    human_keywords = ["falar com atendente", "falar com humano", "atendente", "quero falar com", "pessoa real", "agente humano"]
-    for kw in human_keywords:
-        if kw in t:
-            return "HUMANO"
-    cancel_keywords = ["cancelar", "encerrar", "tchau", "bye", "não quero mais"]
-    for kw in cancel_keywords:
-        if kw in t:
-            return "CANCEL"
-    return "FAQ"
-
-
-def generate_response_with_gemini(prompt: str) -> str:
-    """Generate a response using Google Gemini API.
-    
-    Returns empty string on ANY failure (quota, auth, network, etc).
-    Caller is responsible for handling the failure gracefully.
-    """
-    try:
-        api_key = os.environ.get("GEMINI_API_KEY")
-        if not api_key:
-            raise RuntimeError("Gemini API key not configured")
+            raise RuntimeError("GEMINI_API_KEY not configured")
         if genai is None:
             raise RuntimeError("google-generativeai not installed")
 
@@ -113,97 +51,88 @@ def generate_response_with_gemini(prompt: str) -> str:
             return response.text
         raise ValueError("Empty Gemini response")
     except Exception as e:
-        logger.error(f"[GEMINI] Response generation FAILED: {e}")
+        logger.error(f"[GEMINI] FAILED: {e}")
         return ""
 
 
-def triage_node(state: AgentState) -> Dict[str, Any]:
-    if state.get("is_human_active"):
-        return {"node": "handoff", "state_update": {"flow_step": "handoff", "intent": "HUMANO"}, "response": None}
-
-    flow = state.get("flow_step", "idle")
-    if str(flow).startswith("awaiting_"):
-        intent = state.get("intent", "FAQ")
-        target = "faq" if intent.upper().startswith("FAQ") else "handoff" if intent.upper().startswith("HUMANO") else "cancel"
-        return {"node": target, "state_update": {"intent": intent}, "response": None}
-
+def conversation_node(state: AgentState) -> Dict[str, Any]:
+    """Single conversational node. Camila talks naturally and decides
+    what to do based on the conversation flow, not robotic classification."""
     incoming = state.get("incoming_text", "")
-    try:
-        classification = classify_with_gemini(
-            "Você é um classificador de mensagens de WhatsApp para uma loja de tecidos. "
-            "Classifique a intenção da mensagem abaixo em EXATAMENTE uma palavra:\n\n"
-            "- FAQ: Perguntas sobre produtos, preços, horário, localização, saudações, conversa geral\n"
-            "- HUMANO: Cliente pede explicitamente para falar com atendente/humano\n"
-            "- CANCEL: Cliente quer encerrar a conversa\n\n"
-            "IMPORTANTE: Saudações como 'olá', 'bom dia', 'boa tarde' são sempre FAQ.\n"
-            "Perguntas sobre tecidos, preços, horários são sempre FAQ.\n"
-            "Só classifique como HUMANO se o cliente pedir EXPLICITAMENTE um atendente.\n\n"
-            f"Mensagem: {incoming}\n\n"
-            "Intenção:"
-        )
-    except Exception:
-        classification = _keyword_classify(incoming)
+    is_human_active = state.get("is_human_active", False)
 
-    intent = classification
-    target = {"FAQ": "faq", "HUMANO": "handoff", "CANCEL": "cancel"}.get(intent, "faq")
-    logger.info(f"[TRIAGE] text=\"{incoming[:50]}\" → intent={intent} → node={target}")
-    return {"node": target, "state_update": {"intent": intent, "flow_step": "triaged"}, "response": None}
+    # If customer already asked for human and we transferred,
+    # stay in handoff mode (but allow them to come back)
+    if is_human_active:
+        # If they send a new message after handoff, reset and talk again
+        # (maybe the human didn't respond and they're trying the bot again)
+        lower = incoming.lower().strip()
+        comeback_words = ["voltar", "quero voltar", "cancelar", "esquece", "conversar com voce", "falar com voce"]
+        if any(w in lower for w in comeback_words):
+            is_human_active = False
+        else:
+            return {
+                "node": "END",
+                "state_update": {"flow_step": "handoff"},
+                "response": f"Seu atendimento já foi transferido! Se quiser voltar a conversar comigo, é só mandar uma mensagem.\n\nPro atendente: {HANDOFF_LINK}",
+            }
 
+    # Build conversation prompt
+    prompt = (
+        "Você é a Camila, que trabalha na C&N Tecidos em Campina Grande, PB. "
+        "Você atende clientes pelo WhatsApp de forma natural, como uma pessoa real conversando.\n\n"
+        "REGRAS:\n"
+        "- Converse normalmente, como uma pessoa real no WhatsApp\n"
+        "- Seja breve (2-4 linhas)\n"
+        "- NAO use emojis\n"
+        "- NAO se apresente como bot, assistente ou IA\n"
+        "- NAO diga 'como posso ajudar' se ja esta respondendo algo\n"
+        "- NAO liste opcoes numeradas\n"
+        "- Se nao souber algo, seja honesta e sugira visitar a loja\n"
+        "- Se o cliente pedir explicitamente para falar com atendente/humano, responda EXATAMENTE assim: [HANDOFF]\n"
+        "- Se o cliente quiser encerrar, responda EXATAMENTE assim: [CANCEL]\n"
+        "- Para qualquer outra coisa, apenas converse naturalmente\n\n"
+        f"Sobre a loja: {STORE_CONTEXT}\n\n"
+        f"Cliente diz: {incoming}\n\n"
+        "Sua resposta:"
+    )
 
-def faq_node(state: AgentState) -> Dict[str, Any]:
-    fabric_context = _get_fabric_context()
-    user_question = state.get("incoming_text", "")
+    answer = _call_gemini(prompt)
 
-    greetings = ["olá", "ola", "oi", "bom dia", "boa tarde", "boa noite", "hello", "hi", "hey"]
-    is_greeting = any(g in user_question.lower().strip() for g in greetings) and len(user_question.strip()) < 30
-
-    if is_greeting:
-        prompt = (
-            "Você é Camila, consultora de moda da C&N Tecidos em Campina Grande, PB. "
-            "O cliente acabou de mandar uma saudação no WhatsApp. "
-            "Responda como uma pessoa real e simpática, não como um robô. "
-            "Seja breve e natural (2-3 linhas máx). "
-            "Cumprimente de volta e pergunte como pode ajudar. "
-            "NÃO use emojis excessivos. NÃO se apresente como 'assistente' ou 'bot'. "
-            "NÃO liste opções numeradas. Apenas converse naturalmente.\n\n"
-            f"Cliente disse: {user_question}"
-        )
-    else:
-        prompt = (
-            "Você é Camila, consultora de moda da C&N Tecidos em Campina Grande, PB. "
-            "Responda como uma pessoa real conversando no WhatsApp — direta, simpática e útil. "
-            "Seja breve (3-4 linhas máx). Use linguagem informal e natural. "
-            "NÃO use emojis excessivos. NÃO se apresente como 'assistente' ou 'bot'. "
-            "NÃO diga 'como posso ajudar' se já está respondendo algo. "
-            "Se não souber algo específico, seja honesta e sugira que o cliente visite a loja.\n\n"
-            f"Contexto sobre a loja: {fabric_context}\n\n"
-            f"Cliente pergunta: {user_question}"
-        )
-
-    answer = generate_response_with_gemini(prompt)
-
-    # If Gemini failed (quota, error, etc), send friendly handoff message
+    # Gemini failed (quota, error, etc)
     if not answer:
-        logger.warning(f"[FAQ] Gemini failed for jid={state.get('remote_jid','')[:20]} — sending AI failure handoff")
+        logger.warning(f"[CONVERSATION] Gemini failed — sending failure handoff")
         return {
-            "node": "handoff",
-            "state_update": {"intent": "HUMANO", "flow_step": "ai_failure_handoff"},
+            "node": "END",
+            "state_update": {"flow_step": "ai_failure", "is_human_active": True},
             "response": AI_FAILURE_MESSAGE,
         }
 
-    state_updates: Dict[str, Any] = {"response": answer, "flow_step": "idle"}
-    return {"node": "faq", "state_update": state_updates, "response": answer}
+    # Check if Gemini decided to handoff or cancel
+    answer_stripped = answer.strip()
+    if "[HANDOFF]" in answer_stripped:
+        # Remove the tag and send friendly handoff
+        clean = answer_stripped.replace("[HANDOFF]", "").strip()
+        handoff_msg = f"{clean}\n\nÉ só clicar aqui: {HANDOFF_LINK}"
+        return {
+            "node": "END",
+            "state_update": {"is_human_active": True, "flow_step": "handoff"},
+            "response": handoff_msg,
+        }
 
+    if "[CANCEL]" in answer_stripped:
+        clean = answer_stripped.replace("[CANCEL]", "").strip()
+        goodbye = clean if clean else "Tudo bem! Se precisar, é só mandar mensagem."
+        return {
+            "node": "END",
+            "state_update": {"flow_step": "idle"},
+            "response": goodbye,
+        }
 
-def human_handoff_node(state: AgentState) -> Dict[str, Any]:
-    state_updates = {"is_human_active": True, "flow_step": "handoff"}
-    handoff_msg = (
-        "Claro! Vou te passar com um dos nossos atendentes. "
-        f"É só clicar aqui: {HANDOFF_LINK}"
-    )
-    return {"node": "idle", "state_update": state_updates, "response": handoff_msg}
-
-
-def cancel_node(state: AgentState) -> Dict[str, Any]:
-    state_updates = {"flow_step": "idle", "incoming_text": "", "intent": "FAQ"}
-    return {"node": "END", "state_update": state_updates, "response": "Tudo bem! Se precisar, é só mandar mensagem. Até mais! 👋"}
+    # Normal conversation response
+    logger.info(f"[CONVERSATION] Replied to \"{incoming[:50]}\" → {len(answer)} chars")
+    return {
+        "node": "END",
+        "state_update": {"flow_step": "idle"},
+        "response": answer_stripped,
+    }

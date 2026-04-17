@@ -1,28 +1,16 @@
 from typing import Optional
 import asyncio
 
-from .state import AgentState, default_state
-from .nodes import triage_node, faq_node, human_handoff_node, cancel_node
+from .state import AgentState
+from .nodes import conversation_node
 
 
 class StateGraph:
     def __init__(self):
-        self.entry = "triage"
+        self.entry = "conversation"
         self.nodes = {
-            "triage": triage_node,
-            "faq": faq_node,
-            "handoff": human_handoff_node,
-            "cancel": cancel_node,
+            "conversation": conversation_node,
         }
-
-    def save_memory(self, state: AgentState) -> None:
-        try:
-            import os
-            path = os.path.join(os.path.dirname(__file__), "memory.log")
-            with open(path, "a", encoding="utf-8") as f:
-                f.write(str(state) + "\n")
-        except Exception:
-            pass
 
     def run(self, state: AgentState) -> str:
         current = self.entry
@@ -44,7 +32,6 @@ class StateGraph:
                 response = result["response"]
                 state["response"] = response
             next_node = result.get("node")
-            self.save_memory(state)
             if not next_node or next_node == "END":
                 break
             current = next_node
