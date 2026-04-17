@@ -1,7 +1,9 @@
 """Webhook handler para receber eventos da Evolution API v2.3.7."""
 
 import os
+import time
 import logging
+import traceback
 from fastapi import APIRouter, Request, HTTPException
 
 from services import whatsapp as wpp_service
@@ -24,22 +26,16 @@ _processed_message_ids: set = set()
 @router.post("/evolution/webhook")
 @router.post("/evolution/webhook/{event_path}")
 async def evolution_webhook(request: Request, event_path: str = ""):
-    """Handle webhook from Evolution API.
-    
-    Evolution API v2 with webhookByEvents=true appends the event name
-    to the URL, e.g. /evolution/webhook/messages-upsert
-    This route handles both formats.
-    """
+    """Handle webhook from Evolution API."""
+    t0 = time.time()
     try:
         payload = await request.json()
     except Exception as e:
         logger.warning(f"[WEBHOOK] Invalid JSON payload: {e}")
         raise HTTPException(status_code=400, detail="Invalid JSON")
 
-    # Determine event from URL path or payload
     event = payload.get("event", "")
     if not event and event_path:
-        # Convert URL path like 'messages-upsert' to 'MESSAGES_UPSERT'
         event = event_path.upper().replace("-", "_")
         payload["event"] = event
 
@@ -58,14 +54,20 @@ async def evolution_webhook(request: Request, event_path: str = ""):
         for msg in message_data.get("messages", []):
             result = await _process_message(msg, instance)
             results.append(result)
-        return {"status": "processed", "results": results}
+        elapsed = time.time() - t0
+        logger.info(f"[WEBHOOK] Batch complete: {len(results)} msgs in {elapsed:.2f}s")
+        return {"status": "processed", "results": results, "elapsed_s": round(elapsed, 2)}
 
     result = await _process_message(message_data, instance)
+    elapsed = time.time() - t0
+    result["elapsed_s"] = round(elapsed, 2)
+    logger.info(f"[WEBHOOK] Complete: status={result.get('status')} elapsed={elapsed:.2f}s")
     return {"status": "processed", "result": result}
 
 
 async def _process_message(message: dict, instance_name: str) -> dict:
     global _processed_message_ids
+    t0 = time.time()
     
     key = message.get("key", {})
     remote_jid = key.get("remoteJid", "")
@@ -79,9 +81,9 @@ async def _process_message(message: dict, instance_name: str) -> dict:
     if not message_id:
         logger.warning("[WEBHOOK] Missing message_id")
         return {"status": "error", "reason": "missing_message_id"}
-n    
+    
     if from_me:
-        logger.debug(f"[WEBHOOK] Ignored (fromMe=True): {message_id}")
+        logger.debug(f"[WEBHOOK] Ignored (fromMe): {message_id}")
         return {"status": "ignored", "reason": "from_me"}
     
     if "@g.us" in remote_jid:
@@ -99,15 +101,16 @@ n
     incoming_media_type = parsed.get("media_type")
     
     if incoming_media_type != "text":
-        logger.info(f"[WEBHOOK] Ignored media message: {incoming_media_type} from {remote_jid[:12]}...")
+        logger.info(f"[WEBHOOK] Ignored media: {incoming_media_type} from {remote_jid[:20]}")
         return {"status": "ignored", "reason": "media_not_supported", "media_type": incoming_media_type}
     
     if not incoming_text:
-        logger.warning(f"[WEBHOOK] Empty text message from {remote_jid[:12]}...")
+        logger.warning(f"[WEBHOOK] Empty text from {remote_jid[:20]}")
         return {"status": "ignored", "reason": "empty_text"}
     
-    logger.info(f"[WEBHOOK] Processing: jid={remote_jid[:12]}... msg_id={message_id[:16]}...")
+    logger.info(f"[WEBHOOK] >>> START processing: jid={remote_jid[:20]} text=\"{incoming_text[:50]}\" msg_id={message_id[:20]}")
     
+    # Step 1: Build initial state
     initial_state: AgentState = {
         "remote_jid": remote_jid,
         "instance_name": instance_name,
@@ -120,34 +123,44 @@ n
         "is_human_active": False,
         "should_end": False,
     }
+    logger.info(f"[WEBHOOK] Step 1: State built ({time.time()-t0:.2f}s)")
     
+    # Step 2: Run LangGraph
     try:
+        logger.info(f"[WEBHOOK] Step 2: Invoking graph...")
         from agents.fashion_graph import fashion_graph
+        logger.info(f"[WEBHOOK] Step 2a: Graph imported ({time.time()-t0:.2f}s)")
         final_state = await fashion_graph.ainvoke(initial_state)
+        logger.info(f"[WEBHOOK] Step 2b: Graph completed ({time.time()-t0:.2f}s) intent={final_state.get('intent')} step={final_state.get('flow_step')}")
     except Exception as e:
-        logger.error(f"[WEBHOOK] Graph error: {e}")
+        elapsed = time.time() - t0
+        logger.error(f"[WEBHOOK] Step 2 FAILED: Graph error after {elapsed:.2f}s: {e}\n{traceback.format_exc()}")
         error_message = f"Ops! Ocorreu um erro interno. Por favor, tente novamente ou fale com um atendente:\n{HANDOFF_LINK} 🙏"
         try:
             await wpp_service.send_text(instance_name, remote_jid, error_message)
         except Exception as send_error:
             logger.error(f"[WEBHOOK] Failed to send error message: {send_error}")
-        return {"status": "error", "reason": "graph_error", "error": str(e)}
+        return {"status": "error", "reason": "graph_error", "error": str(e), "elapsed_s": round(elapsed, 2)}
     
+    # Step 3: Send response
     response_text = final_state.get("response")
+    logger.info(f"[WEBHOOK] Step 3: Response generated ({time.time()-t0:.2f}s) len={len(response_text) if response_text else 0}")
     
     try:
         if response_text:
             await wpp_service.send_text(instance_name, remote_jid, response_text)
-            logger.info(f"[WEBHOOK] Sent text to {remote_jid[:12]}...")
+            elapsed = time.time() - t0
+            logger.info(f"[WEBHOOK] Step 3a: Response sent ({elapsed:.2f}s)")
         else:
-            logger.warning(f"[WEBHOOK] No response to send for {remote_jid[:12]}...")
-            
+            logger.warning(f"[WEBHOOK] Step 3a: No response to send for {remote_jid[:20]}")
     except Exception as e:
-        logger.error(f"[WEBHOOK] Failed to send response: {e}")
-        return {"status": "error", "reason": "send_failed", "error": str(e)}
+        elapsed = time.time() - t0
+        logger.error(f"[WEBHOOK] Step 3 FAILED: Send error after {elapsed:.2f}s: {e}\n{traceback.format_exc()}")
+        return {"status": "error", "reason": "send_failed", "error": str(e), "elapsed_s": round(elapsed, 2)}
     
-    logger.info(f"[WEBHOOK] Done: jid={remote_jid[:12]}... step={final_state.get('flow_step')}")
-    return {"status": "success", "flow_step": final_state.get("flow_step")}
+    elapsed = time.time() - t0
+    logger.info(f"[WEBHOOK] <<< DONE: jid={remote_jid[:20]} intent={final_state.get('intent')} step={final_state.get('flow_step')} total={elapsed:.2f}s")
+    return {"status": "success", "flow_step": final_state.get("flow_step"), "intent": final_state.get("intent"), "elapsed_s": round(elapsed, 2)}
 
 
 def _parse_message_content(message: dict) -> dict:
