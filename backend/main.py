@@ -45,10 +45,22 @@ async def lifespan(app: FastAPI):
     # Database init (non-fatal if it fails)
     try:
         print("[LIFESPAN] Creating database tables...", flush=True)
-        from db.database import create_all_tables
-        create_all_tables()
-        print("[LIFESPAN] ✅ Database initialized", flush=True)
-        logger.info("✅ Banco de dados inicializado")
+        import db.database as db_mod
+        print(f"[LIFESPAN] db.database attrs: {[a for a in dir(db_mod) if not a.startswith('_')]}", flush=True)
+        if hasattr(db_mod, 'create_all_tables'):
+            db_mod.create_all_tables()
+            print("[LIFESPAN] ✅ Database initialized", flush=True)
+            logger.info("✅ Banco de dados inicializado")
+        else:
+            # Fallback: create tables directly
+            print("[LIFESPAN] create_all_tables not found, using fallback", flush=True)
+            engine = db_mod.get_engine()
+            if engine is not None:
+                db_mod.Base.metadata.create_all(bind=engine)
+                print("[LIFESPAN] ✅ Database initialized (fallback)", flush=True)
+                logger.info("✅ Banco de dados inicializado (fallback)")
+            else:
+                print("[LIFESPAN] ⚠️ No database engine available", flush=True)
     except Exception as e:
         print(f"[LIFESPAN] ⚠️ Database unavailable: {e}", flush=True)
         logger.warning(f"⚠️ Banco de dados não disponível no startup: {e}")
