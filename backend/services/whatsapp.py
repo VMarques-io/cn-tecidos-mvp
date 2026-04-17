@@ -5,6 +5,7 @@ import logging
 import httpx
 from typing import Optional, List, Dict
 import time
+from urllib.parse import quote
 
 logger = logging.getLogger(__name__)
 
@@ -37,9 +38,15 @@ def _clean_number(remote_jid: str) -> str:
     return remote_jid
 
 
+def _encode_instance(instance_name: str) -> str:
+    """URL-encode instance name for API paths (handles spaces, etc)."""
+    return quote(instance_name, safe="")
+
+
 async def send_text(instance_name: str, remote_jid: str, text: str) -> dict:
     number = _clean_number(remote_jid)
-    url = f"{EVOLUTION_API_URL}/message/sendText/{instance_name}"
+    encoded_instance = _encode_instance(instance_name)
+    url = f"{EVOLUTION_API_URL}/message/sendText/{encoded_instance}"
     payload = {"number": number, "text": text, "delay": 1200}
 
     logger.info(f"[WPP] send_text → {number} len={len(text)}")
@@ -60,7 +67,8 @@ async def send_text(instance_name: str, remote_jid: str, text: str) -> dict:
 
 async def send_image(instance_name: str, remote_jid: str, image_url: str, caption: Optional[str] = None) -> dict:
     number = _clean_number(remote_jid)
-    url = f"{EVOLUTION_API_URL}/message/sendMedia/{instance_name}"
+    encoded_instance = _encode_instance(instance_name)
+    url = f"{EVOLUTION_API_URL}/message/sendMedia/{encoded_instance}"
     payload = {"number": number, "mediatype": "image", "mimetype": "image/jpeg", "caption": caption or "", "media": image_url}
 
     logger.info(f"[WPP] send_image → {number} url={image_url[:50]}")
@@ -80,7 +88,8 @@ async def send_image(instance_name: str, remote_jid: str, image_url: str, captio
 
 async def send_typing(instance_name: str, remote_jid: str, duration: int = 2000):
     number = _clean_number(remote_jid)
-    url = f"{EVOLUTION_API_URL}/chat/sendPresence/{instance_name}"
+    encoded_instance = _encode_instance(instance_name)
+    url = f"{EVOLUTION_API_URL}/chat/sendPresence/{encoded_instance}"
     payload = {"number": number, "options": {"presence": "composing", "delay": duration}}
     try:
         async with httpx.AsyncClient(timeout=5.0) as client:
