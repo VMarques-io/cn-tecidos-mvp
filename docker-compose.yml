@@ -1,0 +1,48 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cn-tecidos-app
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-cntecidos}:${POSTGRES_PASSWORD:-devpass}@db:5432/${POSTGRES_DB:-cntecidos}
+      PORT: 3000
+      EVOLUTION_API_URL: ${EVOLUTION_API_URL:-}
+      EVOLUTION_INSTANCE: ${EVOLUTION_INSTANCE:-}
+      EVOLUTION_API_KEY: ${EVOLUTION_API_KEY:-}
+      AUTHENTICATION_API_KEY: ${AUTHENTICATION_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      HANDOFF_LINK: ${HANDOFF_LINK:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:3000/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  db:
+    image: postgres:16-alpine
+    container_name: cn-tecidos-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: cntecidos
+      POSTGRES_PASSWORD: devpass
+      POSTGRES_DB: cntecidos
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cntecidos -d cntecidos"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

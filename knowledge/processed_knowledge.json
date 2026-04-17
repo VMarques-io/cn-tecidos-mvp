@@ -1,0 +1,4948 @@
+{
+  "version": "1.0",
+  "fabrics": [
+    {
+      "nome": "CET. COM ELAS NEW",
+      "descricao": "hobby, camisola, forros para vestidos, blusas para fotos de formandas",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Cetim%20com%20Elastano"
+    },
+    {
+      "nome": "MUSSELINE",
+      "descricao": "tecido fluido, vestido godê duplo fluído, godê simples fluido, vestido fluido com capa no ombro, vestido fluido com manga-capa, vestido fluido para casamento de dia , vestido  fluido para pre-wedding em local aberto , vestido fluido com babados,  saias, blusas e macacoes com a mesma caracteristica dos vestidos acima citados.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Musseline"
+    },
+    {
+      "nome": "ZIBELINE",
+      "descricao": "tecido estruturado, vestido de festa longo estruturado sequinho , vestido de festa longo estruturado godê duplo, vestido estruturado longo godê simples, vestido de festa estruturado midi godê simples e duplo, vestido de festa longo estruturado sereia, vestido de festa longo estruturado êvase, vestido de festa curto  estruturado êvase, vestido de festa estruturado midi êvase, saia longa estruturada êvase, saia estruturada longa godê duplo, saia estruturada longa godê simples, saia estruturada midi, saia curta estruturada  godê simples, saia curta estrururada godê duplo, cropped estruturado, corpete, casaquinho, casaco spencer, pelerine estruturado, vestido de noiva estruturado nas modelagens godê simples e duplo, êvase, sereia.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Zibeline"
+    },
+    {
+      "nome": "CETIM BUCOL",
+      "descricao": "vestido de festa longo com brilho acetinado, vestido estruturado godê simples ou duplo, vestido sereia com caimento pesado, vestido de noiva encorpado com leve brilho, saia godê estruturada, cropped acetinado estruturado, corpete com bojo e brilho.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Buco"
+    },
+    {
+      "nome": "ZIBELINE MIKADO",
+      "descricao": "vestido longo estruturado, vestido de noiva godê ou sereia, vestido midi encorpado, saia godê duplo, cropped estruturado com alças largas, corpete ajustado, casaco curto estruturado, pelerine elegante.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Mikado"
+    },
+    {
+      "nome": "CETIM PRINCESE",
+      "descricao": "vestido de noiva princesa, vestido de noiva sereia, saia godê dupla e simples, vestido de formatura, mãe de noiva, madrinha de casamento.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Cetim%20Bucol%20Princese"
+    },
+    {
+      "nome": "CETIM BARCELONA",
+      "descricao": "Sem descrição",
+      "link_busca": null
+    },
+    {
+      "nome": "CETIM LION",
+      "descricao": "Sem descrição",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Cetim%20Lyon"
+    },
+    {
+      "nome": "TAFETA INDIANO",
+      "descricao": "vestido estruturado, tecido leve mas encorpado, vestidos de festa, godê duplo, sereia, vestido justo, saia evasê, vestidos de formatura.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Tafet%C3%A1%20Indiano"
+    },
+    {
+      "nome": "MOLETINHO",
+      "descricao": "conjunto casual feminino, vestido midi confortável, blusa manga curta, calça flare com elástico, shorts de moletinho, vestido curto com capuz, macaquinho confortável, vestido longuete, saia longa, vestido tubinho, blusa gola alta levinha.",
+      "link_busca": "https://lojascrispim.com.br/index.php?route=product/search&search=MOLETINHO"
+    },
+    {
+      "nome": "CREPE PATU",
+      "descricao": "Sem descrição",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Crepe%20Patou"
+    },
+    {
+      "nome": "CREPE PASQUALY",
+      "descricao": "tecido com um lado acetinado e um fosco, serve para conjuntinhos, vestido de festa, tecido estruturado, tecido com elastano, saia midi, saia longa, saia justa, saia godê simples e dupla.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Crepe%20Pasquale"
+    },
+    {
+      "nome": "CREPE BERLIN",
+      "descricao": "tecido molinho, crepe com caimento, vestido justo, peças de alfaiataria, calça social, saia justa, vestido tubinho, blazers elegantes.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Crepe%20Berlim"
+    },
+    {
+      "nome": "MALHA SCUBA",
+      "descricao": "Sem descrição",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Malha%20Scuba"
+    },
+    {
+      "nome": "TULE GLITER",
+      "descricao": "vestido de festa com brilho, sobreposição brilhosa, saia de tule com glitter, manga transparente com brilho, vestido infantil de festa, blusa tule com glitter para eventos, vestido de babado, saia franzida, vestido de noiva.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Tule%20com%20Glitter"
+    },
+    {
+      "nome": "CREPE AMANDA",
+      "descricao": "vestido com caimento bom, blusa elegantes feminina, vestidos de festa, saias longas, vestidos midi, vestido godê simples e duplo, conjunto alfaiataria.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Crepe%20Amanda"
+    },
+    {
+      "nome": "VERSALHES",
+      "descricao": "tecido pesado com elastano, vestidos estruturados, corsets, saia longa, saia sereia, saia godê simples e dupla, vestidos midi e curtos, cropped estruturado.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Versalhes"
+    },
+    {
+      "nome": "TULE LISO",
+      "descricao": "sobreposição leve e transparente, mangas bufantes em vestidos de festa, saia de tule para ballet ou festa infantil, vestido com camadas de tule, corpete com tule sobreposto, véu de noiva simples.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Tule"
+    },
+    {
+      "nome": "ACETOUTH",
+      "descricao": "vestido de festa com caimento, vestido acetinado ou fosco, blusas com caimento, blusa nao muito estruturada, saias godê simples e dupla, saia midi.",
+      "link_busca": "https://lojascrispim.com.br/busca?tag=Crepe%20Acetouch"
+    }
+  ],
+  "color_variations": {
+    "branco": {
+      "cor_base": "branco",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "bege claro": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "linho": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "bege escuro": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "cinza claro": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "cinza medio": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE PATU"
+      ]
+    },
+    "prata": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CETIM PRINCESE",
+        "ZIBELINE GLOW",
+        "TAFETÁ INDIANO",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "LINHO DIAGONAL",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "cinza escuro": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "amarelo claro": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "pinacolada": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "amarelo escuro": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "salmao claro": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "melao": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "pessego claro": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "salmao escuro": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "peach": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "laranja claro": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "laranja fanta": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "abrico": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "laranja laya": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "laranja escuro": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "tangerina": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "MUSSELINE",
+        "HAMPTON",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "rosa claro": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "vintage rose": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "rosa silvestre": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "MUSSELINE",
+        "PASQUALE"
+      ]
+    },
+    "rosa bebe": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "MUSSELINE",
+        "BUCOL",
+        "CETIM LION",
+        "ALFAIATARIA MADONN",
+        "LINHO AMBER",
+        "CREPE PRADA",
+        "GABARDINE SEM ELASTANO"
+      ]
+    },
+    "rosa escuro": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "framboesa rose": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "pink classic": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "verde claro": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "verde agua": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE PATU"
+      ]
+    },
+    "verde chá": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE PATU",
+        "ZIBELINE"
+      ]
+    },
+    "agua marinha": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "LINHO PESADO"
+      ]
+    },
+    "verde picante": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "PASQUALE"
+      ]
+    },
+    "abacate": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE PATU"
+      ]
+    },
+    "verde menta": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "ALFAIATARIA MADONN",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "matha": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE PATU",
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "verde escuro": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "verdejante": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "ALFAIATARIA MADONN",
+        "LINHO PESADO"
+      ]
+    },
+    "verde esmeralda": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "BUCOL"
+      ]
+    },
+    "pistache": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE ALFAIATARIA GENOVA"
+      ]
+    },
+    "verde selvagem": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "esperança": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "pinho": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "verde pinheiro": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "ZIBELINE"
+      ]
+    },
+    "azul claro": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "azul bebe": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM LION",
+        "TAFETÁ INDIANO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "POLYLINHO"
+      ]
+    },
+    "azul sereno": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "ceruleo": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE AYA"
+      ]
+    },
+    "allure blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "MUSSELINE",
+        "BUCOL",
+        "CREPE AYA"
+      ]
+    },
+    "azul escuro": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "azul maiorca": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "PASQUALE"
+      ]
+    },
+    "azul tinta": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "azul matisse": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "indy blue": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "twilight blue": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "CETIM PRINCESE",
+        "ALFAIATARIA LUCCHESE"
+      ]
+    },
+    "lilas claro": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "lavander": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "lilas": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "MUSSELINE",
+        "BUCOL",
+        "CETIM LION",
+        "LYOCELL",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "lilas escuro": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "ametista": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "PASQUALE",
+        "CREPE PRADA"
+      ]
+    },
+    "vermelho claro": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "valentino": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE AYA",
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "vermelho escuro": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "diva": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "terracota claro": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "amber": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "rali": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "terracota escuro": {
+      "cor_base": "terracota escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "terracota": {
+      "cor_base": "terracota escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE AMANDA",
+        "MICRO TULE"
+      ]
+    },
+    "preto": {
+      "cor_base": "preto",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "off white": {
+      "cor_base": "off white",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "palha claro": {
+      "cor_base": "off white",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "fuschia": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "manaca": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "roxo": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "ultra violeta": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "LINHO PESADO"
+      ]
+    },
+    "very peri": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "purple haze": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "MUSSELINE",
+        "CREPE PATU",
+        "CREPE AYA"
+      ]
+    },
+    "marrom": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "brown ceramic": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "MUSSELINE"
+      ]
+    },
+    "vinho": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "framboesa": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "MUSSELINE",
+        "MIKADO",
+        "CREPE AYA",
+        "ALFAIATARIA MADONN",
+        "CREPE ACETOUCH"
+      ]
+    },
+    "tifany": {
+      "cor_base": "tifany",
+      "tecidos": [
+        "MUSSELINE",
+        "VERSALHES",
+        "CETIM PRINCESE",
+        "BUCOL",
+        "CREPE PATU",
+        "CREPE BEETHOVEN",
+        "ZIBELINE GLOW",
+        "MIKADO",
+        "CETIM LION",
+        "ZIBELINE",
+        "HAMPTON",
+        "PASQUALE",
+        "CREPE AYA",
+        "CREPE AMANDA",
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CETIM COM ELASTANO",
+        "CREPE BERLIM",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MALHA CANELADA",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "VISCOSE DOBBY",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "VISCOSE SARJADA",
+        "LYOCELL",
+        "PIQUET LILLE",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "VISCOSE MESSI",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO COM ALGODÃO",
+        "LINHO LISTRADO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE PRADA",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ",
+        "HIFFEX",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA GENOVA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "bege": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "VERSALHES",
+        "MIKADO",
+        "MALHA CANELADA",
+        "MOLETINHO",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "TWO WAY RISCA DE GIZ",
+        "CREPE ALFAIATARIA GENOVA",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "kraft": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "amarelo soft": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "amarelo citrico": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "coral": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "VERSALHES",
+        "CETIM LION",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "laranja queimado": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "sepia rosado": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "violeta vibrante": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "verde cha": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "verde formatura": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "VERSALHES",
+        "CETIM LION"
+      ]
+    },
+    "verde flag": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "VERSALHES",
+        "ZIBELINE"
+      ]
+    },
+    "samambaia": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "verde imperial": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "VERSALHES",
+        "CREPE AYA"
+      ]
+    },
+    "azul lavanda": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "VERSALHES",
+        "CREPE AMANDA"
+      ]
+    },
+    "azul royal": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "VERSALHES",
+        "BUCOL",
+        "CETIM LION",
+        "CREPE AMANDA",
+        "TAFETÁ INDIANO",
+        "MALHA SCUBA",
+        "TWO WAY",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "lavanda": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "VERSALHES",
+        "CREPE PATU",
+        "MIKADO",
+        "TAFETÁ INDIANO"
+      ]
+    },
+    "vermelho": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "VERSALHES",
+        "CETIM LION",
+        "PASQUALE",
+        "CREPE AMANDA",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "CREPE PATUX",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "MOLETINHO",
+        "VISCOLINHO",
+        "LINHO AMBER",
+        "VISCOSE ACETINADA",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "GABARDINE COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "vermelho fogo": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "VERSALHES"
+      ]
+    },
+    "natural": {
+      "cor_base": "off white",
+      "tecidos": [
+        "VERSALHES",
+        "PIQUET LILLE",
+        "LINHO PESADO",
+        "CREPE PRADA"
+      ]
+    },
+    "fucsia": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "VERSALHES",
+        "ZIBELINE",
+        "CREPE AMANDA",
+        "TAFETÁ INDIANO",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "TULE COM GLITTLE CHEIO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "bloom": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "prisma rose": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "whisky rose": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "turmalina": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "verde agave": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "verde sage": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "verde eletrico": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "verde murad": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CETIM PRINCESE",
+        "ZIBELINE GLOW",
+        "MIKADO"
+      ]
+    },
+    "azul mist": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "blue space": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "CETIM PRINCESE",
+        "CREPE AYA"
+      ]
+    },
+    "lilas vitral": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "carmim": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "verm glow": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "pink mahall": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "CETIM PRINCESE"
+      ]
+    },
+    "port royale": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "CETIM PRINCESE",
+        "CREPE AYA"
+      ]
+    },
+    "castor": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "BUCOL",
+        "ZIBELINE",
+        "CREPE PRADA",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "acacia new": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "mostarda": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "BUCOL",
+        "CREPE PATU",
+        "MOLETINHO",
+        "LINHO AMBER"
+      ]
+    },
+    "cheddar": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "BUCOL",
+        "CREPE ACETOUCH"
+      ]
+    },
+    "blush": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "BUCOL",
+        "TWO WAY RISCA DE GIZ",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "nude new": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "rose agata": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "carmine": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "pink flambe": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "sakura": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "verde gales": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "oliva claro": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "oliva escuro": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "BUCOL",
+        "CREPE PATU"
+      ]
+    },
+    "energy green": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "verde bandeira": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "BUCOL",
+        "ZIBELINE",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "azul iris": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "BUCOL"
+      ]
+    },
+    "arabesque": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "BUCOL",
+        "MALHA SCUBA",
+        "TWO WAY RISCA DE GIZ"
+      ]
+    },
+    "coral pink": {
+      "cor_base": "terracota escuro",
+      "tecidos": [
+        "BUCOL",
+        "ZIBELINE"
+      ]
+    },
+    "chocolate": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "BUCOL",
+        "CETIM LION",
+        "TAFETÁ INDIANO",
+        "MALHA CANELADA",
+        "VISCOSE ACETINADA",
+        "LINHO PESADO"
+      ]
+    },
+    "capuchino": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "malte": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "acácia": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CREPE PATU",
+        "MICRO TULE"
+      ]
+    },
+    "dijon": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "abóbora": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "pessego": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "cenoura": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "CREPE PATU",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "rosa seco": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE PATU",
+        "CREPE AMANDA",
+        "LINHO PESADO"
+      ]
+    },
+    "orchid flow": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "rosa eletrico": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "picante": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "ultramar": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "esmeralda": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "verde aloe": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE PATU",
+        "MOLETINHO"
+      ]
+    },
+    "selvagem": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE PATU",
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "azul real": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "CREPE PATU",
+        "CREPE AYA",
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "tomate": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "now white": {
+      "cor_base": "off white",
+      "tecidos": [
+        "CREPE PATU"
+      ]
+    },
+    "carota": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "guaravani": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "avocado": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE BEETHOVEN",
+        "HIFFEX"
+      ]
+    },
+    "caribe": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "selene": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "sasha": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "sunset": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "hermes": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "piccioli": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "CREPE BEETHOVEN"
+      ]
+    },
+    "rosa blush": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "eletric pink": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "quartzo verde": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "verde glimmer": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "azul céu": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ZIBELINE GLOW",
+        "ZIBELINE"
+      ]
+    },
+    "night blue": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "vermelho glow": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "licor de cereja": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "ZIBELINE GLOW"
+      ]
+    },
+    "cimento": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "MIKADO"
+      ]
+    },
+    "marinho": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MIKADO",
+        "TAFETÁ INDIANO",
+        "CREPE BERLIM",
+        "MALHA CANELADA",
+        "MOLETINHO",
+        "LINHO DIAGONAL",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "royal": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "MIKADO",
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "amarelo gema": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "CETIM LION"
+      ]
+    },
+    "rosa chá": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CETIM LION",
+        "ZIBELINE"
+      ]
+    },
+    "sulferino": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CETIM LION"
+      ]
+    },
+    "verde medio": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CETIM LION"
+      ]
+    },
+    "dourado": {
+      "cor_base": "dourado",
+      "tecidos": [
+        "CETIM LION",
+        "ZIBELINE",
+        "TAFETÁ INDIANO"
+      ]
+    },
+    "ouro velho": {
+      "cor_base": "dourado",
+      "tecidos": [
+        "CETIM LION",
+        "TAFETÁ INDIANO"
+      ]
+    },
+    "caqui/preto": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "toasted nut": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "chardonay": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "citronele": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "salmao": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "ZIBELINE",
+        "LINHO DIAGONAL"
+      ]
+    },
+    "salmao/preto": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "nao  existe": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "rosa/preto": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "bridal rose": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "ameixa": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "cabaret": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "magenta": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "ZIBELINE",
+        "LYOCELL",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "citron": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "verbena": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "ZIBELINE",
+        "CREPE AMANDA"
+      ]
+    },
+    "oliva": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE",
+        "VISCOSE HEAVY TWILL"
+      ]
+    },
+    "verde profundo": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "verde nat": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "deep teal": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "verde hills": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "forest biome": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "green olive": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "britany blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "little blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "serenity": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "dubai blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "nautical blue": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "tulipa new": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "cherry tomato": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "ferrari": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "ZIBELINE",
+        "TWO WAY",
+        "TWO WAY RISCA DE GIZ"
+      ]
+    },
+    "rio red": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "red ruch": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "snow white": {
+      "cor_base": "off white",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "off": {
+      "cor_base": "off white",
+      "tecidos": [
+        "ZIBELINE",
+        "HAMPTON",
+        "CREPE AYA",
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "MICRO TULE",
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "MALHA SCUBA",
+        "MOLETINHO",
+        "CREPE ACETOUCH",
+        "LINHO DIAGONAL",
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "ALFAIATARIA CROSS",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "baton rouge": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "verry berry": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "vinho indsor": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "pomegranate": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "ZIBELINE",
+        "CREPE PRADA",
+        "TWO WAY RISCA DE GIZ"
+      ]
+    },
+    "ouro palido": {
+      "cor_base": "dourado",
+      "tecidos": [
+        "ZIBELINE"
+      ]
+    },
+    "tropical": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "HAMPTON"
+      ]
+    },
+    "menta fresca": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "HAMPTON"
+      ]
+    },
+    "malaquita": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "HAMPTON"
+      ]
+    },
+    "militar": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "HAMPTON",
+        "CREPE AMANDA",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "metaverse": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "HAMPTON"
+      ]
+    },
+    "verde piscina claro": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "PASQUALE"
+      ]
+    },
+    "verde natal": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "PASQUALE",
+        "CREPE AMANDA",
+        "LINHO LISTRADO"
+      ]
+    },
+    "verde oliva": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "PASQUALE",
+        "MICRO TULE",
+        "MALHA CANELADA",
+        "MOLETINHO",
+        "LINHO PESADO"
+      ]
+    },
+    "verde ultra": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "PASQUALE"
+      ]
+    },
+    "azul serenity": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "PASQUALE"
+      ]
+    },
+    "chili": {
+      "cor_base": "terracota escuro",
+      "tecidos": [
+        "PASQUALE"
+      ]
+    },
+    "vinho perolado": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "PASQUALE"
+      ]
+    },
+    "aveia": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "canguru": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "quaker": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "croissaint": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "acacia": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CREPE AYA",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "canario": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "CREPE AYA",
+        "VISCOSE SARJADA"
+      ]
+    },
+    "macaron": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "CREPE AYA",
+        "CETIM COM ELASTANO",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "melissa": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "jambo": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "rose": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE AYA",
+        "MICRO TULE",
+        "LINHO COM ELASTANO",
+        "VISCOSE ACETINADA",
+        "ALFAIATARIA LUCCHESE",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "matcha": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "moss": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "sorte": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "eclair": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "netuno": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE AYA",
+        "CREPE ACETOUCH"
+      ]
+    },
+    "scuba blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "lilac": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "princess blue": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "violace": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "CREPE AYA",
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "avelã": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "guaraná": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "madeira": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "CREPE AYA",
+        "LINHO AMBER"
+      ]
+    },
+    "dark purple": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "manacá": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "choco": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "CREPE AYA"
+      ]
+    },
+    "champanhe": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE AMANDA",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "cinza fuzil": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "amarelo lima": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CREPE AMANDA",
+        "VISCOSE SARJADA"
+      ]
+    },
+    "panacota": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "camafeu": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "peach fuzz": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "CREPE AMANDA",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "hibisco": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "orquidiario": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "rosa dust": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "azul marinho escuro": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "marsala": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "CREPE AMANDA",
+        "MICRO TULE",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "branqueado": {
+      "cor_base": "off white",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "goiaba claro": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "CREPE AMANDA"
+      ]
+    },
+    "barro": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "homus": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "CREPE ACETOUCH"
+      ]
+    },
+    "nude": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "LINHO DIAGONAL",
+        "POLYLINHO"
+      ]
+    },
+    "laranja": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "TAFETÁ INDIANO",
+        "VISCOSE HEAVY TWILL",
+        "LINHO AMBER"
+      ]
+    },
+    "cereja": {
+      "cor_base": "vinho",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "CREPE ALFAIATARIA GENOVA",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "rosa chiclete": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "LINHO AMBER"
+      ]
+    },
+    "palmeira": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "suculenta": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "verde broto": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "avatar": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "galaxy": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "azul marinho": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "ALFAIATARIA MADONN",
+        "VISCOSE ACETINADA",
+        "TWO WAY",
+        "POLYLINHO",
+        "GABARDINE SEM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "chianti": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "dark pupile": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "ALFAIATARIA MADONN"
+      ]
+    },
+    "amarelo": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "TAFETÁ INDIANO",
+        "MALHA SCUBA",
+        "LYOCELL"
+      ]
+    },
+    "rosado": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "TAFETÁ INDIANO"
+      ]
+    },
+    "rosa": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "TAFETÁ INDIANO",
+        "MICRO TULE",
+        "MOLETINHO",
+        "LINHO ANKARA",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "guacamole": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "TAFETÁ INDIANO",
+        "CETIM COM ELASTANO",
+        "CREPE ACETOUCH",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "verde ice": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "TAFETÁ INDIANO"
+      ]
+    },
+    "verde": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "TAFETÁ INDIANO",
+        "TAFETÁ CHANGEANT",
+        "MICRO TULE",
+        "TULE COM GLITTLE CHEIO"
+      ]
+    },
+    "telha": {
+      "cor_base": "terracota escuro",
+      "tecidos": [
+        "TAFETÁ INDIANO",
+        "MOLETINHO",
+        "POLYLINHO"
+      ]
+    },
+    "pink": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "TAFETÁ CHANGEANT",
+        "LINHO COM ELASTANO",
+        "VISCOLINHO",
+        "LYOCELL",
+        "LINHO PESADO",
+        "CREPE PRADA"
+      ]
+    },
+    "granito": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "cidreira": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "verde garrafa": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "dusk blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "plume": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CETIM COM ELASTANO"
+      ]
+    },
+    "jely": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CETIM COM ELASTANO",
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "banana": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CREPE BERLIM"
+      ]
+    },
+    "sol vermelho": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "CREPE BERLIM"
+      ]
+    },
+    "agua rose": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE BERLIM"
+      ]
+    },
+    "fresh": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE BERLIM"
+      ]
+    },
+    "lime": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE BERLIM"
+      ]
+    },
+    "agua ceu": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE BERLIM"
+      ]
+    },
+    "azul": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE BERLIM",
+        "MALHA SCUBA",
+        "LINHO DIAGONAL",
+        "LINHO PESADO"
+      ]
+    },
+    "ceramic": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "CREPE PATUX",
+        "MICRO TULE",
+        "MOLETINHO"
+      ]
+    },
+    "rose vintage": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "MICRO TULE"
+      ]
+    },
+    "branco/prata": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "TULE COM GLITTER (EXPLOSÃO)"
+      ]
+    },
+    "verde cedar": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "TULE COM GLITTER (EXPLOSÃO)"
+      ]
+    },
+    "ultramarino": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "TULE COM GLITTER (EXPLOSÃO)",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "petroleo": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "MALHA CANELADA",
+        "MOLETINHO"
+      ]
+    },
+    "byzantinium": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "MALHA SCUBA"
+      ]
+    },
+    "rosa liberdade": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "MOLETINHO"
+      ]
+    },
+    "verde liberdade": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "MOLETINHO"
+      ]
+    },
+    "vermelho sketh": {
+      "cor_base": "vermelho escuro",
+      "tecidos": [
+        "MOLETINHO"
+      ]
+    },
+    "mango": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "CREPE ACETOUCH"
+      ]
+    },
+    "orange": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "CREPE ACETOUCH"
+      ]
+    },
+    "liatris": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "CREPE ACETOUCH",
+        "LYOCELL"
+      ]
+    },
+    "gremadine": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "CREPE ACETOUCH"
+      ]
+    },
+    "pinhao": {
+      "cor_base": "terracota escuro",
+      "tecidos": [
+        "CREPE ACETOUCH"
+      ]
+    },
+    "areia": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "LINHO DIAGONAL",
+        "ALFAIATARIA CROSS",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "caqui": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "LINHO DIAGONAL",
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "chumbo": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "LINHO DIAGONAL"
+      ]
+    },
+    "charuto": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LINHO DIAGONAL"
+      ]
+    },
+    "verde militar": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LINHO DIAGONAL"
+      ]
+    },
+    "hortensia": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "LINHO DIAGONAL"
+      ]
+    },
+    "azul bic": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "LINHO DIAGONAL"
+      ]
+    },
+    "marinho escuro": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "LINHO DIAGONAL"
+      ]
+    },
+    "maple sugar": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "VISCOSE DOBBY"
+      ]
+    },
+    "furtacor": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "VISCOSE DOBBY",
+        "VISCOSE SARJADA"
+      ]
+    },
+    "jade": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "VISCOSE DOBBY"
+      ]
+    },
+    "purple": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "VISCOSE DOBBY",
+        "VISCOSE SARJADA"
+      ]
+    },
+    "sinuca": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LINHO COM ELASTANO"
+      ]
+    },
+    "azul sky": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "LINHO COM ELASTANO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "goiaba": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "VISCOLINHO",
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "TWO WAY"
+      ]
+    },
+    "maresia": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "VISCOLINHO",
+        "VISCOSE SARJADA"
+      ]
+    },
+    "malta": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "VISCOSE SARJADA"
+      ]
+    },
+    "pele": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "LYOCELL"
+      ]
+    },
+    "chinó": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "LYOCELL"
+      ]
+    },
+    "papaya": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "LYOCELL"
+      ]
+    },
+    "verde chia": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "LYOCELL"
+      ]
+    },
+    "amazon": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LYOCELL"
+      ]
+    },
+    "ginna": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "PIQUET LILLE"
+      ]
+    },
+    "liz": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "PIQUET LILLE"
+      ]
+    },
+    "biscuit": {
+      "cor_base": "salmao claro",
+      "tecidos": [
+        "PIQUET LILLE"
+      ]
+    },
+    "fendi": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "PIQUET LILLE"
+      ]
+    },
+    "pipa": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "PIQUET LILLE"
+      ]
+    },
+    "brulê": {
+      "cor_base": "off white",
+      "tecidos": [
+        "PIQUET LILLE"
+      ]
+    },
+    "kiwi": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "VISCOSE HEAVY TWILL",
+        "LINHO LISTRADO"
+      ]
+    },
+    "verde cana": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "VISCOSE HEAVY TWILL",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "cobre life": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "LINHO AMBER"
+      ]
+    },
+    "berry": {
+      "cor_base": "fuschia",
+      "tecidos": [
+        "LINHO AMBER"
+      ]
+    },
+    "desert": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "balena": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "limoncello": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "salvia": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "azure": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "horizonte": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "demi": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "tijolo": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "capuccino": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "VISCOSE MESSI"
+      ]
+    },
+    "havana": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "LINHO ANKARA"
+      ]
+    },
+    "cromo": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "LINHO ANKARA"
+      ]
+    },
+    "dark grey": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "LINHO ANKARA"
+      ]
+    },
+    "marlin": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "LINHO ANKARA"
+      ]
+    },
+    "menta": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "LINHO ANKARA",
+        "TWO WAY RISCA DE GIZ",
+        "POLYLINHO",
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "noruega": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "LINHO ANKARA"
+      ]
+    },
+    "anis": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "unicornio": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "grenadine": {
+      "cor_base": "vermelho claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "azulejo": {
+      "cor_base": "tifany",
+      "tecidos": [
+        "CAMBRAIA DE LINHO COM ALGODÃO"
+      ]
+    },
+    "canhamo": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "LINHO LISTRADO"
+      ]
+    },
+    "nougat": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "LINHO LISTRADO"
+      ]
+    },
+    "azul delave": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "LINHO LISTRADO"
+      ]
+    },
+    "sheer bliss": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "khaki": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "mascavo": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "miuccia": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "voga": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "cinza": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "amarelo sanny": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "naturale": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "orange vota": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "rosa 1": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "skin dolce": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "rosa columba": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "green florest": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "green vita": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "heavy": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "negro oliva": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "lavender": {
+      "cor_base": "lilas claro",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "terra": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "LINHO PESADO",
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "trigo": {
+      "cor_base": "off white",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "beringela": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "LINHO PESADO"
+      ]
+    },
+    "amarelo ouro": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "solar": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "rosa alter": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "rosa axe": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "rosa pink": {
+      "cor_base": "rosa escuro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "verde bebe": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "verde limao": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "verde exercito": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "azul piscina": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "branco off": {
+      "cor_base": "off white",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "meteoro": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "mocha mousse": {
+      "cor_base": "marrom",
+      "tecidos": [
+        "CAMBRAIA DE LINHO 100% R$109.90"
+      ]
+    },
+    "bread": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "sintonia": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "fur": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "fusil": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "CREPE PRADA",
+        "HIFFEX"
+      ]
+    },
+    "bight coral": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "coral claro": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "CREPE PRADA",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "soft nude": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "cholla": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "olive": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "azul spa": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "capri": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "etéreo": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "marrakech": {
+      "cor_base": "terracota claro",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "pirata": {
+      "cor_base": "preto",
+      "tecidos": [
+        "CREPE PRADA"
+      ]
+    },
+    "steel grey": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "salmon pink": {
+      "cor_base": "salmao escuro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "celebrate": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "musgo": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "verde petroleo": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "air blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "céu": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "azul pretroleo": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "TWO WAY"
+      ]
+    },
+    "encanto": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "TWO WAY RISCA DE GIZ"
+      ]
+    },
+    "atlantico": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "TWO WAY RISCA DE GIZ"
+      ]
+    },
+    "azul navy": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "TWO WAY RISCA DE GIZ",
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "merlot": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "TWO WAY RISCA DE GIZ"
+      ]
+    },
+    "kaki": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "HIFFEX"
+      ]
+    },
+    "green kaki": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "HIFFEX"
+      ]
+    },
+    "verde escaravelho": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "HIFFEX"
+      ]
+    },
+    "jeans": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "HIFFEX"
+      ]
+    },
+    "azul pirata": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "HIFFEX"
+      ]
+    },
+    "sailor": {
+      "cor_base": "azul escuro",
+      "tecidos": [
+        "HIFFEX"
+      ]
+    },
+    "rustic bege": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "POLYLINHO"
+      ]
+    },
+    "creme ovos": {
+      "cor_base": "laranja claro",
+      "tecidos": [
+        "POLYLINHO"
+      ]
+    },
+    "agua marine": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "POLYLINHO"
+      ]
+    },
+    "citrix": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "POLYLINHO"
+      ]
+    },
+    "verde aqua": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "POLYLINHO"
+      ]
+    },
+    "verde piscina": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "POLYLINHO",
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "azul ceu": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "POLYLINHO",
+        "CREPE ALFAIATARIA GENOVA"
+      ]
+    },
+    "terra caqui": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "oliva life": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "yellow": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "botanical": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "dewberry": {
+      "cor_base": "lilas escuro",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "gelo": {
+      "cor_base": "off white",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "berinjela": {
+      "cor_base": "roxo",
+      "tecidos": [
+        "ALFAIATARIA CROSS"
+      ]
+    },
+    "etruscam": {
+      "cor_base": "laranja escuro",
+      "tecidos": [
+        "CREPE ALFAIATARIA GENOVA"
+      ]
+    },
+    "amor eterno": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA GENOVA"
+      ]
+    },
+    "lavanda light": {
+      "cor_base": "rosa claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA GENOVA"
+      ]
+    },
+    "ride blue": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA GENOVA"
+      ]
+    },
+    "dark incense": {
+      "cor_base": "bege escuro",
+      "tecidos": [
+        "ALFAIATARIA LUCCHESE"
+      ]
+    },
+    "magneto": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "ALFAIATARIA LUCCHESE"
+      ]
+    },
+    "pastel green": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "ALFAIATARIA LUCCHESE"
+      ]
+    },
+    "grafite": {
+      "cor_base": "cinza escuro",
+      "tecidos": [
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "azul celeste": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "GABARDINE SEM ELASTANO"
+      ]
+    },
+    "marfim": {
+      "cor_base": "off white",
+      "tecidos": [
+        "GABARDINE SEM ELASTANO",
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "verde musgo": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "GABARDINE COM ELASTANO"
+      ]
+    },
+    "rosa balet": {
+      "cor_base": "bege claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "cinza essencial": {
+      "cor_base": "cinza claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "wind": {
+      "cor_base": "amarelo claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "skol": {
+      "cor_base": "amarelo escuro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "verde pistache": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "verde acqua": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "verde citric": {
+      "cor_base": "verde claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "verde floresta": {
+      "cor_base": "verde escuro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    },
+    "aquamarine": {
+      "cor_base": "azul claro",
+      "tecidos": [
+        "CREPE ALFAIATARIA BARBIE"
+      ]
+    }
+  },
+  "body_types_guide": {
+    "Ampulheta": {
+      "descricao": "Ombros e quadris equilibrados, cintura bem definida. Corpo mais simétrico.",
+      "roupas_que_valorizam": [
+        "Vestidos que definem a cintura (cinto, franzido, drapeado)",
+        "Vestido evasê ou godê simples",
+        "Vestido sereia com saia flare",
+        "Qualquer tipo de manga (corpo já é equilibrado)"
+      ],
+      "evitar": [
+        "Tecidos muito volumosos que escondem a cintura",
+        "Saias muito largas que perdem a proporção"
+      ],
+      "tecidos_recomendados": [
+        "Musseline",
+        "Zibeline",
+        "Cetim Bucol"
+      ]
+    },
+    "Triângulo (Pera)": {
+      "descricao": "Ombros mais estreitos que os quadris. Parte inferior mais larga.",
+      "roupas_que_valorizam": [
+        "Vestido em A (evasê) — equilibra a silhueta",
+        "Parte superior estruturada, ombros valorizados",
+        "Bordados concentrados no busto e ombros",
+        "Saia com caimento leve (godê)",
+        "Decotes que abrem o colo"
+      ],
+      "evitar": [
+        "Saia muito justa ou modelo sereia",
+        "Tecidos grossos ou armados no quadril",
+        "Brilhos, pregas ou volumes na parte inferior",
+        "Cintura baixa"
+      ],
+      "tecidos_recomendados": [
+        "Musseline",
+        "Tafetá Indiano",
+        "Moletinho"
+      ]
+    },
+    "Triângulo Invertido": {
+      "descricao": "Ombros mais largos que os quadris. Parte superior mais robusta.",
+      "roupas_que_valorizam": [
+        "Saia evasê para criar volume na parte inferior",
+        "Godê duplo para equilibrar os quadris",
+        "Decotes em V para afinar a parte superior",
+        "Cintura marcada"
+      ],
+      "evitar": [
+        "Ombros estruturados exagerados",
+        "Manga bufante",
+        "Decote ombro a ombro"
+      ],
+      "tecidos_recomendados": [
+        "Zibeline",
+        "Cetim Princese",
+        "Cetim Bucol"
+      ]
+    },
+    "Retângulo": {
+      "descricao": "Ombros, cintura e quadris com medidas parecidas. Poucas curvas.",
+      "roupas_que_valorizam": [
+        "Drapeados e franzidos para criar curvas",
+        "Cinto ou faixa para demarcar a cintura",
+        "Godê e babados para criar volume",
+        "Estampas e texturas para dar movimento"
+      ],
+      "evitar": [
+        "Roupas muito retas sem definição",
+        "Tecidos pesados e sem movimento"
+      ],
+      "tecidos_recomendados": [
+        "Musseline",
+        "Zibeline Mikado",
+        "Cetim Barcelona"
+      ]
+    },
+    "Oval": {
+      "descricao": "Abdome proeminente. Busto e quadris proporcionais, mas com volume central.",
+      "roupas_que_valorizam": [
+        "Vestidos com fluxo vertical (godê, evasê longo)",
+        "Decotes em V para alongar a silhueta",
+        "Caimento suave e fluido",
+        "Saia longa com elástico confortável"
+      ],
+      "evitar": [
+        "Cintos muito apertados",
+        "Tecidos muito justos no abdome",
+        "Saias franzidas na cintura"
+      ],
+      "tecidos_recomendados": [
+        "Musseline",
+        "Moletinho",
+        "Tafetá Indiano"
+      ]
+    },
+    "Diamante": {
+      "descricao": "Quadris largos, ombros estreitos, cintura menos definida. Semelhante ao Triângulo mas com mais volume geral.",
+      "roupas_que_valorizam": [
+        "Saias evasê longas",
+        "Parte superior com volume e estrutura",
+        "Decotes que valorizam o colo",
+        "Vestidos com detalhe na parte superior"
+      ],
+      "evitar": [
+        "Calças e saias muito justas",
+        "Cintura marcada com cinto largo"
+      ],
+      "tecidos_recomendados": [
+        "Musseline",
+        "Zibeline",
+        "Cetim Bucol"
+      ]
+    }
+  },
+  "anamnesis_flow": [
+    {
+      "step": 1,
+      "field": "occasion",
+      "pergunta": "Para qual *ocasião* você está buscando o modelo? 🎉\n\n1️⃣ Vestido de festa\n2️⃣ Formatura\n3️⃣ Casamento (noiva)\n4️⃣ Mãe de noiva / Madrinha\n5️⃣ Roupa casual\n6️⃣ Outro (me conte!)"
+    },
+    {
+      "step": 2,
+      "field": "body_type",
+      "pergunta": "Qual perfil de corpo tem mais semelhança com o da cliente? 👗\n\n1️⃣ *Ampulheta* — ombros e quadris equilibrados, cintura bem marcada\n2️⃣ *Triângulo (Pera)* — quadris mais largos que os ombros\n3️⃣ *Triângulo Invertido* — ombros mais largos que os quadris\n4️⃣ *Retângulo* — sem muita curva, medidas parecidas\n5️⃣ *Oval* — volume concentrado na região abdominal\n6️⃣ *Diamante* — quadris largos e ombros estreitos\n\n_Se quiser, posso enviar um guia visual de biotipos! 📸_"
+    },
+    {
+      "step": 3,
+      "field": "neckline",
+      "pergunta": "Qual decote combina mais com o estilo da cliente? ✨\n\n1️⃣ Decote V (elegante e alongador)\n2️⃣ Decote coração\n3️⃣ Ombro a ombro\n4️⃣ Decote quadrado\n5️⃣ Decote canoa\n6️⃣ Decote assimétrico (um ombro só)"
+    },
+    {
+      "step": 4,
+      "field": "sleeve",
+      "pergunta": "A cliente quer *mangas*? Qual tipo? 💪\n\n1️⃣ Sem mangas (alcinha ou tomara-que-caia)\n2️⃣ Manga bufante\n3️⃣ Manga jabour / drapeada\n4️⃣ Manga capa\n5️⃣ Manga morcego\n6️⃣ Manga princesa\n7️⃣ Manga 3/4 ou longa com punho"
+    },
+    {
+      "step": 5,
+      "field": "embroidery",
+      "pergunta": "Como prefere o uso de bordados? 🪡\n\n1️⃣ Totalmente liso\n2️⃣ Bordado em todo o vestido\n3️⃣ Bordado na parte superior, liso na parte inferior"
+    }
+  ]
+}
