@@ -10,7 +10,7 @@ COPY --from=ghcr.io/astral-sh/uv:0.10.7 /uv /uvx /bin/
 WORKDIR /app
 
 # Copy dependency files first (layer cache optimization)
-COPY requirements.txt .
+COPY backend/requirements.txt .
 
 # Create virtual environment
 RUN uv venv /app/.venv
@@ -32,7 +32,7 @@ WORKDIR /app
 COPY --from=builder /app/.venv /app/.venv
 
 # Copy source code
-COPY . .
+COPY backend/ .
 
 # Create non-root user for security
 RUN useradd -m appuser && chown -R appuser:appuser /app
