@@ -14,10 +14,16 @@ router = APIRouter()
 
 DEFAULT_INSTANCE = os.getenv("EVOLUTION_INSTANCE", "cn-tecidos")
 
-HANDOFF_LINK = (
+HANDOFF_LINK = os.environ.get(
+    "HANDOFF_LINK",
     "https://api.whatsapp.com/send/?phone=558335073620"
     "&text=Ol%C3%A1%21+Gostaria+de+falar+com+um+atendente+da+C%26N+Tecidos."
     "&type=phone_number&app_absent=0"
+)
+
+AI_FAILURE_MESSAGE = (
+    "Me perdoa, mas vou ter que transferir seu atendimento, tá bom? 🙏\n\n"
+    f"É só clicar aqui pra falar com a gente: {HANDOFF_LINK}"
 )
 
 _processed_message_ids: set = set()
@@ -110,7 +116,6 @@ async def _process_message(message: dict, instance_name: str) -> dict:
     
     logger.info(f"[WEBHOOK] >>> START processing: jid={remote_jid[:20]} text=\"{incoming_text[:50]}\" msg_id={message_id[:20]}")
     
-    # Step 1: Build initial state
     initial_state: AgentState = {
         "remote_jid": remote_jid,
         "instance_name": instance_name,
@@ -135,11 +140,12 @@ async def _process_message(message: dict, instance_name: str) -> dict:
     except Exception as e:
         elapsed = time.time() - t0
         logger.error(f"[WEBHOOK] Step 2 FAILED: Graph error after {elapsed:.2f}s: {e}\n{traceback.format_exc()}")
-        error_message = f"Ops! Ocorreu um erro interno. Por favor, tente novamente ou fale com um atendente:\n{HANDOFF_LINK} 🙏"
+        # Send friendly failure message instead of raw error
         try:
-            await wpp_service.send_text(instance_name, remote_jid, error_message)
+            await wpp_service.send_text(instance_name, remote_jid, AI_FAILURE_MESSAGE)
+            logger.info(f"[WEBHOOK] Sent AI failure handoff message to {remote_jid[:20]}")
         except Exception as send_error:
-            logger.error(f"[WEBHOOK] Failed to send error message: {send_error}")
+            logger.error(f"[WEBHOOK] Failed to send even the failure message: {send_error}")
         return {"status": "error", "reason": "graph_error", "error": str(e), "elapsed_s": round(elapsed, 2)}
     
     # Step 3: Send response
@@ -152,7 +158,11 @@ async def _process_message(message: dict, instance_name: str) -> dict:
             elapsed = time.time() - t0
             logger.info(f"[WEBHOOK] Step 3a: Response sent ({elapsed:.2f}s)")
         else:
-            logger.warning(f"[WEBHOOK] Step 3a: No response to send for {remote_jid[:20]}")
+            # No response from graph — send failure handoff
+            logger.warning(f"[WEBHOOK] Step 3a: No response generated — sending AI failure handoff")
+            await wpp_service.send_text(instance_name, remote_jid, AI_FAILURE_MESSAGE)
+            elapsed = time.time() - t0
+            logger.info(f"[WEBHOOK] Step 3a: Failure handoff sent ({elapsed:.2f}s)")
     except Exception as e:
         elapsed = time.time() - t0
         logger.error(f"[WEBHOOK] Step 3 FAILED: Send error after {elapsed:.2f}s: {e}\n{traceback.format_exc()}")

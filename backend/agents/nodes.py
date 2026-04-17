@@ -20,6 +20,12 @@ HANDOFF_LINK = os.environ.get(
     "&type=phone_number&app_absent=0"
 )
 
+# Friendly fallback message when AI fails
+AI_FAILURE_MESSAGE = (
+    "Me perdoa, mas vou ter que transferir seu atendimento, tá bom? 🙏\n\n"
+    f"É só clicar aqui pra falar com a gente: {HANDOFF_LINK}"
+)
+
 
 def _safe_import_knowledge():
     try:
@@ -62,12 +68,10 @@ def classify_with_gemini(text: str) -> str:
             raise ValueError("Empty Gemini response")
 
         content = response.text.strip().upper()
-        # Accept various formats the model might return
         if "HUMANO" in content or "HUMAN" in content:
             return "HUMANO"
         if "CANCEL" in content or "CANCELAR" in content:
             return "CANCEL"
-        # Default to FAQ for everything else (greetings, questions, etc.)
         return "FAQ"
     except Exception as e:
         logger.warning(f"[GEMINI] Classification fallback: {e}")
@@ -77,22 +81,23 @@ def classify_with_gemini(text: str) -> str:
 def _keyword_classify(text: str) -> str:
     """Fallback classification using keywords."""
     t = text.lower().strip()
-    # HUMANO: explicit requests for human agent
     human_keywords = ["falar com atendente", "falar com humano", "atendente", "quero falar com", "pessoa real", "agente humano"]
     for kw in human_keywords:
         if kw in t:
             return "HUMANO"
-    # CANCEL: explicit cancel/end requests
     cancel_keywords = ["cancelar", "encerrar", "tchau", "bye", "não quero mais"]
     for kw in cancel_keywords:
         if kw in t:
             return "CANCEL"
-    # Everything else is FAQ (greetings, questions, etc.)
     return "FAQ"
 
 
 def generate_response_with_gemini(prompt: str) -> str:
-    """Generate a response using Google Gemini API."""
+    """Generate a response using Google Gemini API.
+    
+    Returns empty string on ANY failure (quota, auth, network, etc).
+    Caller is responsible for handling the failure gracefully.
+    """
     try:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
@@ -108,7 +113,7 @@ def generate_response_with_gemini(prompt: str) -> str:
             return response.text
         raise ValueError("Empty Gemini response")
     except Exception as e:
-        logger.warning(f"[GEMINI] Response generation fallback: {e}")
+        logger.error(f"[GEMINI] Response generation FAILED: {e}")
         return ""
 
 
@@ -148,9 +153,7 @@ def triage_node(state: AgentState) -> Dict[str, Any]:
 def faq_node(state: AgentState) -> Dict[str, Any]:
     fabric_context = _get_fabric_context()
     user_question = state.get("incoming_text", "")
-    intent = state.get("intent", "FAQ")
 
-    # Detect if this is a greeting vs a specific question
     greetings = ["olá", "ola", "oi", "bom dia", "boa tarde", "boa noite", "hello", "hi", "hey"]
     is_greeting = any(g in user_question.lower().strip() for g in greetings) and len(user_question.strip()) < 30
 
@@ -177,18 +180,16 @@ def faq_node(state: AgentState) -> Dict[str, Any]:
             f"Cliente pergunta: {user_question}"
         )
 
-    try:
-        answer = generate_response_with_gemini(prompt)
-        if not answer:
-            if is_greeting:
-                answer = "Oi! Tudo bem? Sou a Camila da C&N Tecidos 😊 Como posso te ajudar hoje?"
-            else:
-                answer = f"Oi! Sobre isso, a melhor forma é dar uma passada aqui na loja que a gente te mostra tudo com calma. Fica na C&N Tecidos em Campina Grande!"
-    except Exception:
-        if is_greeting:
-            answer = "Oi! Tudo bem? Sou a Camila da C&N Tecidos 😊 Como posso te ajudar hoje?"
-        else:
-            answer = f"Oi! Sobre isso, a melhor forma é dar uma passada aqui na loja que a gente te mostra tudo com calma. Fica na C&N Tecidos em Campina Grande!"
+    answer = generate_response_with_gemini(prompt)
+
+    # If Gemini failed (quota, error, etc), send friendly handoff message
+    if not answer:
+        logger.warning(f"[FAQ] Gemini failed for jid={state.get('remote_jid','')[:20]} — sending AI failure handoff")
+        return {
+            "node": "handoff",
+            "state_update": {"intent": "HUMANO", "flow_step": "ai_failure_handoff"},
+            "response": AI_FAILURE_MESSAGE,
+        }
 
     state_updates: Dict[str, Any] = {"response": answer, "flow_step": "idle"}
     return {"node": "faq", "state_update": state_updates, "response": answer}
