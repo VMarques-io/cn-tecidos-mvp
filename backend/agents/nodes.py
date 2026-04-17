@@ -11,6 +11,8 @@ from .state import AgentState
 
 logger = logging.getLogger(__name__)
 
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash")
+
 
 def _safe_import_knowledge():
     try:
@@ -44,7 +46,7 @@ def classify_with_gemini(text: str) -> str:
             raise RuntimeError("google-generativeai not installed")
 
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel(GEMINI_MODEL)
         response = model.generate_content(text)
 
         if not response or not response.text:
@@ -79,7 +81,7 @@ def generate_response_with_gemini(prompt: str) -> str:
             raise RuntimeError("google-generativeai not installed")
 
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel(GEMINI_MODEL)
         response = model.generate_content(prompt)
 
         if response and response.text:
