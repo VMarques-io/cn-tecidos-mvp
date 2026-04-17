@@ -12,8 +12,11 @@ WORKDIR /app
 # Copy dependency files first (layer cache optimization)
 COPY requirements.txt .
 
-# Install dependencies into virtual environment
-RUN uv sync --frozen --no-install-project --no-dev
+# Create virtual environment
+RUN uv venv /app/.venv
+
+# Install dependencies from requirements.txt
+RUN uv pip install -r requirements.txt --python /app/.venv/bin/python
 
 # =============================================================================
 # Stage 2: Production image
@@ -40,7 +43,7 @@ ENV PATH="/app/.venv/bin:$PATH"
 
 # Health check (shell form for env var expansion)
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD /bin/sh -c "python -c \"import httpx; httpx.get('http://localhost:' + os.environ.get('PORT', '3000') + '/health', timeout=5)\" || exit 1"
+    CMD python -c "import httpx, os; httpx.get('http://localhost:' + os.environ.get('PORT', '3000') + '/health', timeout=5)" || exit 1
 
 # Use PORT from environment (Easypanel injects this)
 EXPOSE ${PORT:-3000}
