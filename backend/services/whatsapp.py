@@ -11,16 +11,19 @@ logger = logging.getLogger(__name__)
 test_message_cache: Dict[str, List[Dict]] = {}
 
 EVOLUTION_API_URL = os.getenv("EVOLUTION_API_URL", "")
-AUTHENTICATION_API_KEY = os.getenv("AUTHENTICATION_API_KEY", "")
+EVOLUTION_API_KEY = os.getenv("EVOLUTION_API_KEY", "")
 
 _is_configured = bool(EVOLUTION_API_URL) and "localhost" not in EVOLUTION_API_URL.lower()
 
 if not _is_configured:
     logger.warning("[WPP] EVOLUTION_API_URL não configurado. Modo de simulação ativado.")
 
+if not EVOLUTION_API_KEY:
+    logger.warning("[WPP] EVOLUTION_API_KEY não configurado. Envio de mensagens pode falhar.")
+
 
 def _get_headers() -> Dict[str, str]:
-    return {"apikey": AUTHENTICATION_API_KEY, "Content-Type": "application/json"}
+    return {"apikey": EVOLUTION_API_KEY, "Content-Type": "application/json"}
 
 
 async def send_text(instance_name: str, remote_jid: str, text: str) -> dict:
@@ -56,12 +59,10 @@ async def send_image(instance_name: str, remote_jid: str, image_url: str, captio
     if not _is_configured:
         return {"status": "simulated", "message": "Cache updated (image)"}
 
-
     async with httpx.AsyncClient(timeout=30.0) as client:
         response = await client.post(url, json=payload, headers=_get_headers())
         response.raise_for_status()
         return response.json()
-
 
 
 async def send_typing(instance_name: str, remote_jid: str, duration: int = 2000):
