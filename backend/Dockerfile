@@ -28,7 +28,7 @@ COPY --from=ghcr.io/astral-sh/uv:0.10.7 /uv /uvx /bin/
 
 # Force cache invalidation - Easypanel caches Docker layers aggressively
 # Changing this arg value forces a fresh build with latest code
-ARG CACHE_BUST=2026-04-17-v2
+ARG CACHE_BUST=2026-04-17-v3
 
 WORKDIR /app
 
