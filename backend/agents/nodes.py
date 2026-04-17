@@ -1,4 +1,5 @@
 import os
+import logging
 from typing import Dict, Any
 
 try:
@@ -7,6 +8,8 @@ except ImportError:
     genai = None
 
 from .state import AgentState
+
+logger = logging.getLogger(__name__)
 
 
 def _safe_import_knowledge():
@@ -32,20 +35,22 @@ def _resolve_color() -> str:
 
 
 def classify_with_gemini(text: str) -> str:
+    """Classify user intent using Google Gemini API."""
     try:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
             raise RuntimeError("Gemini API key not configured")
+        if genai is None:
+            raise RuntimeError("google-generativeai not installed")
+
         genai.configure(api_key=api_key)
-        resp = genai.chat(model="gemini-1.5-flash", messages=[{"role": "user", "content": text}], temperature=0.0)
-        if hasattr(resp, "candidates") and resp.candidates:
-            content = getattr(resp.candidates[0], "content", "")
-        elif isinstance(resp, dict) and resp.get("content"):
-            content = resp["content"]
-        else:
-            content = str(resp)
-        if not content:
+        model = genai.GenerativeModel("gemini-2.0-flash")
+        response = model.generate_content(text)
+
+        if not response or not response.text:
             raise ValueError("Empty Gemini response")
+
+        content = response.text
         lower = content.lower()
         if "hum" in lower:
             return "HUMANO"
@@ -54,13 +59,35 @@ def classify_with_gemini(text: str) -> str:
         if "faq" in lower or "fabric" in lower or "tecido" in lower:
             return "FAQ"
         return "FAQ"
-    except Exception:
+    except Exception as e:
+        logger.warning(f"[GEMINI] Classification fallback: {e}")
         t = text.lower()
-        if "handoff" in t or "hum" in t:
+        if "handoff" in t or "hum" in t or "atendente" in t or "humano" in t:
             return "HUMANO"
         if "cancel" in t or "end" in t:
             return "CANCEL"
         return "FAQ"
+
+
+def generate_response_with_gemini(prompt: str) -> str:
+    """Generate a response using Google Gemini API."""
+    try:
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            raise RuntimeError("Gemini API key not configured")
+        if genai is None:
+            raise RuntimeError("google-generativeai not installed")
+
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel("gemini-2.0-flash")
+        response = model.generate_content(prompt)
+
+        if response and response.text:
+            return response.text
+        raise ValueError("Empty Gemini response")
+    except Exception as e:
+        logger.warning(f"[GEMINI] Response generation fallback: {e}")
+        return ""
 
 
 def triage_node(state: AgentState) -> Dict[str, Any]:
@@ -75,7 +102,9 @@ def triage_node(state: AgentState) -> Dict[str, Any]:
 
     incoming = state.get("incoming_text", "")
     try:
-        classification = classify_with_gemini(incoming)
+        classification = classify_with_gemini(
+            f"Classify this WhatsApp message intent as exactly one word: FAQ, HUMANO, or CANCEL.\n\nMessage: {incoming}"
+        )
     except Exception:
         t = incoming.lower()
         if "handoff" in t or "hum" in t or "atendente" in t or "humano" in t:
@@ -93,9 +122,16 @@ def faq_node(state: AgentState) -> Dict[str, Any]:
     fabric_context = _get_fabric_context()
     color_hint = _resolve_color()
     user_question = state.get("incoming_text", "")
-    prompt = f"Respond in Camila persona (warm, <=3 paragraphs) to fabric-related question. Context: {fabric_context} {color_hint} User asks: {user_question}"
+    prompt = (
+        f"Você é Camila, consultora de moda da C&N Tecidos. "
+        f"Responda de forma acolhedora em até 3 parágrafos.\n\n"
+        f"Contexto: {fabric_context} {color_hint}\n\n"
+        f"Cliente pergunta: {user_question}"
+    )
     try:
-        answer = classify_with_gemini(prompt)
+        answer = generate_response_with_gemini(prompt)
+        if not answer:
+            answer = f"Olá! Com base na nossa coleção: {fabric_context} {color_hint}"
     except Exception:
         answer = f"Olá! Com base na nossa coleção: {fabric_context} {color_hint}"
     state_updates: Dict[str, Any] = {"response": answer, "flow_step": "idle"}
