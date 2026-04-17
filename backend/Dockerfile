@@ -10,7 +10,7 @@ COPY --from=ghcr.io/astral-sh/uv:0.10.7 /uv /uvx /bin/
 WORKDIR /app
 
 # Copy dependency files first (layer cache optimization)
-COPY requirements.txt .
+COPY backend/requirements.txt .
 
 # Create virtual environment
 RUN uv venv /app/.venv
@@ -26,13 +26,17 @@ FROM python:3.12-slim-bookworm
 # Install uv
 COPY --from=ghcr.io/astral-sh/uv:0.10.7 /uv /uvx /bin/
 
+# Force cache invalidation - Easypanel caches Docker layers aggressively
+# Changing this arg value forces a fresh build with latest code
+ARG CACHE_BUST=2026-04-17-v2
+
 WORKDIR /app
 
 # Copy virtual environment from builder
 COPY --from=builder /app/.venv /app/.venv
 
-# Copy source code
-COPY . .
+# Copy source code - ALWAYS fresh because CACHE_BUST changes
+COPY backend/ .
 
 # Create non-root user for security
 RUN useradd -m appuser && chown -R appuser:appuser /app
