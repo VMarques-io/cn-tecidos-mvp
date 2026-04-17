@@ -22,14 +22,27 @@ _processed_message_ids: set = set()
 
 
 @router.post("/evolution/webhook")
-async def evolution_webhook(request: Request):
+@router.post("/evolution/webhook/{event_path}")
+async def evolution_webhook(request: Request, event_path: str = ""):
+    """Handle webhook from Evolution API.
+    
+    Evolution API v2 with webhookByEvents=true appends the event name
+    to the URL, e.g. /evolution/webhook/messages-upsert
+    This route handles both formats.
+    """
     try:
         payload = await request.json()
     except Exception as e:
         logger.warning(f"[WEBHOOK] Invalid JSON payload: {e}")
         raise HTTPException(status_code=400, detail="Invalid JSON")
 
+    # Determine event from URL path or payload
     event = payload.get("event", "")
+    if not event and event_path:
+        # Convert URL path like 'messages-upsert' to 'MESSAGES_UPSERT'
+        event = event_path.upper().replace("-", "_")
+        payload["event"] = event
+
     instance = payload.get("instance") or DEFAULT_INSTANCE
     
     event_upper = event.upper()
@@ -66,7 +79,7 @@ async def _process_message(message: dict, instance_name: str) -> dict:
     if not message_id:
         logger.warning("[WEBHOOK] Missing message_id")
         return {"status": "error", "reason": "missing_message_id"}
-    
+n    
     if from_me:
         logger.debug(f"[WEBHOOK] Ignored (fromMe=True): {message_id}")
         return {"status": "ignored", "reason": "from_me"}
