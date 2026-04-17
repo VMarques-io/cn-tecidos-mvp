@@ -51,6 +51,13 @@ async def lifespan(app: FastAPI):
             db_mod.create_all_tables()
             print("[LIFESPAN] ✅ Database initialized", flush=True)
             logger.info("✅ Banco de dados inicializado")
+            # Seed data on startup
+            try:
+                from db.seed import seed_if_empty
+                seed_if_empty()
+                print("[LIFESPAN] ✅ Database seeded", flush=True)
+            except Exception as e:
+                print(f"[LIFESPAN] ⚠️ Seed failed: {e}", flush=True)
         else:
             # Fallback: create tables directly
             print("[LIFESPAN] create_all_tables not found, using fallback", flush=True)
