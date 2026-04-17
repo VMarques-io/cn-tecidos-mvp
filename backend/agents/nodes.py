@@ -33,6 +33,13 @@ STORE_CONTEXT = (
     "de moda e costura. Preços acessíveis e atendimento personalizado."
 )
 
+# Optional DB-backed services (guarded for resilience)
+try:
+    from services.store_service import get_store_context, search_products  # type: ignore
+except Exception:
+    get_store_context = None  # type: ignore
+    search_products = None  # type: ignore
+
 
 def _call_gemini(prompt: str) -> str:
     """Call Gemini API. Returns empty string on any failure."""
@@ -77,6 +84,21 @@ def conversation_node(state: AgentState) -> Dict[str, Any]:
                 "response": f"Seu atendimento já foi transferido! Se quiser voltar a conversar comigo, é só mandar uma mensagem.\n\nPro atendente: {HANDOFF_LINK}",
             }
 
+    # Decide on store and product context (DB-backed)
+    store_context = ""
+    products_context = ""
+    if callable(get_store_context) and callable(search_products):
+        try:
+            store_context = get_store_context()  # type: ignore
+            products_list = search_products(incoming, limit=3)  # type: ignore
+            if isinstance(products_list, list) and products_list:
+                products_context = "\n".join(
+                    [f"- {p['name']} ({p['category']}) - {p.get('price_range','')}" for p in products_list]
+                )
+        except Exception:
+            store_context = ""
+            products_context = ""
+
     # Build conversation prompt
     prompt = (
         "Você é a Camila, que trabalha na C&N Tecidos em Campina Grande, PB. "
@@ -92,7 +114,8 @@ def conversation_node(state: AgentState) -> Dict[str, Any]:
         "- Se o cliente pedir explicitamente para falar com atendente/humano, responda EXATAMENTE assim: [HANDOFF]\n"
         "- Se o cliente quiser encerrar, responda EXATAMENTE assim: [CANCEL]\n"
         "- Para qualquer outra coisa, apenas converse naturalmente\n\n"
-        f"Sobre a loja: {STORE_CONTEXT}\n\n"
+        f"Sobre a loja: {store_context or STORE_CONTEXT}\n\n"
+        f"PRODUTOS RELACIONADOS:\n{products_context}\n\n"
         f"Cliente diz: {incoming}\n\n"
         "Sua resposta:"
     )
